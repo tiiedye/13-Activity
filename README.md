@@ -1,7 +1,7 @@
 ![made-with-VSCode](https://img.shields.io/badge/Made%20With-VS%20Code-blue)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
 
-# TITLE
-...
+# Section 13
+Supposed to be a movie app with a list of movies that you've watched that you can add, but the source code is failing.
 
 <img src="./assets/screenshot.png"
      alt="Img"

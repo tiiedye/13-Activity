@@ -34,12 +34,12 @@ bool Movies::add_movie(std::string name, std::string rating, int watched) {
     for (const Movie &movie: movies) {
         if (movie.get_name() == name) {
             return false;
-        } else {
-            Movie temp {name, rating, watched};
-            movies.push_back(temp);
-            return true;
         }
     }
+    
+    Movie temp {name, rating, watched};
+    movies.push_back(temp);
+    return true;
 }
 
  /*************************************************************************
@@ -55,11 +55,11 @@ bool Movies::add_movie(std::string name, std::string rating, int watched) {
     *********************************************************************/
 bool Movies::increment_watched(std::string name) {
    for (Movie &movie: movies) {
-       if (movie.get_name() != name) {
-           return false;
-       } else {
+       if (movie.get_name() == name) {
            movie.increment_watched();
            return true;
+       } else {
+           return false;
        }
    }
 }

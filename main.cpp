@@ -1,10 +1,3 @@
-/******************************************************************
- * Section 13 Challenge
- * main.cpp
- * 
- * Test the Movies project
- * 
- * ***************************************************************/
 #include <iostream>
 #include "Movies.h"
 
@@ -42,7 +35,7 @@ void increment_watched(Movies &movies, std::string name) {
 *  because the name of the movie was already in movies
  * ***************************************************************/
 void add_movie(Movies &movies, std::string name, std::string rating, int watched) {
-    if (movies.add_movie(name,rating,watched)) {
+    if (movies.add_movie(name, rating, watched)) {
         std::cout << name << " added" << std::endl;
     } else {
         std::cout << name << " already exists" <<  std::endl;

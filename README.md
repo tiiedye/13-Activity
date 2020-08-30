@@ -1,22 +1,13 @@
-![made-with-VSCode](https://img.shields.io/badge/Made%20With-VS%20Code-blue)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
+![made-with-CodeLite](https://img.shields.io/badge/Made%20With-CodeLite-yellow)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
 
-# Section 13
-Supposed to be a movie app with a list of movies that you've watched that you can add, but the source code is failing.
+# Movie Listings
+a simple app that adds movies to a list and prints out their title, rating, and how many time's you've viewed them. (Change code to add movies/change views. No Command Line Interface)
 
 <img src="./assets/screenshot.png"
      alt="Img"
      style="margin-right: 10px; height: 400px;" />
 
-### Requirements for VS Code
-* C/C++
-* C/C++ Compile Run
-* mingw
-
-
 ### Instructions
-Section 13 Challenge
-==============
-
 For this challenge you are to develop the foundation for a program 
 for movie fanatics to keep track of what movies they have watched
 and how many times they watched each movie.
